@@ -21,5 +21,6 @@ require("lazy").setup({
   {"hrsh7th/cmp-cmdline"}, 
   {"hrsh7th/nvim-cmp"},
   {"williamboman/mason.nvim"},
-  {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'}
+  {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+  {'nvim-lualine/lualine.nvim', dependencies = 'nvim-tree/nvim-web-devicons'},
 })
