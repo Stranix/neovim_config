@@ -34,13 +34,14 @@ git clone https://github.com/Stranix/neovim_config.git ~/.config/nvim
 ## Plugins
 This Neovim configuration is enriched with several plugins that enhance the editing experience. Some of the notable plugins include:
 
-Plug - A minimalist Vim plugin manager.
-LSP - Language Server Protocol support for Neovim.
-Telescope - A powerful fuzzy finder and file picker.
-Tree-sitter - A parser generator for syntax highlighting and other text manipulation tasks.
-Nvim-Tree - A file explorer plugin.
-Gitsigns - Git integration with signs and hunk actions.
-Nvim-Bufferline - A simple buffer line plugin.
+`Lazy` - plugin manager.  
+`LSP` - Language Server Protocol support for Neovim.  
+`Telescope` - A powerful fuzzy finder and file picker.  
+`Tree-sitter` - A parser generator for syntax highlighting and other text manipulation tasks.  
+`Nvim-Tree` - A file explorer plugin.  
+`Gitsigns` - Git integration with signs and hunk actions.  
+`Nvim-Bufferline` - A simple buffer line plugin.  
+  
 Please check the init.lua file to see the full list of plugins used and their configurations.
 
 ## Customization
