@@ -14,7 +14,7 @@ require("lazy").setup({
   {"phaazon/hop.nvim"},
   {"neovim/nvim-lspconfig"},
   {"nvim-treesitter/nvim-treesitter"},
-  {"nvim-telescope/telescope.nvim"},
+  {"nvim-telescope/telescope.nvim", dependencies = {'nvim-lua/plenary.nvim','BurntSushi/ripgrep'}},
   {"navarasu/onedark.nvim"},
   {"hrsh7th/cmp-nvim-lsp"},
   {"hrsh7th/cmp-buffer"}, 
