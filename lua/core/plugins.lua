@@ -23,7 +23,7 @@ require("lazy").setup({
   {"hrsh7th/nvim-cmp"},
   {"williamboman/mason.nvim"},
   {'akinsho/toggleterm.nvim', vrsion = "*", config = true},
-  {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+  {'akinsho/bufferline.nvim', dependencies = 'nvim-tree/nvim-web-devicons'},
   {'nvim-lualine/lualine.nvim', dependencies = 'nvim-tree/nvim-web-devicons'},
   {
     "nvim-neo-tree/neo-tree.nvim",  branch = "v3.x",
