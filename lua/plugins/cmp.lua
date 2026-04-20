@@ -61,7 +61,12 @@ local cmp = require'cmp'
 
   -- Set up lspconfig.
   local capabilities = require('cmp_nvim_lsp').default_capabilities()
-  -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-  require('lspconfig')['pyright'].setup {
-    capabilities = capabilities
-  }
+  vim.lsp.config('pyright', {
+    install = true, -- Neovim может сам предложить установить сервер через этот API
+    options = {
+        capabilities = capabilities,
+        -- здесь можно добавить настройки (settings), если нужно
+    }
+  })
+
+  vim.lsp.enable('pyright')
