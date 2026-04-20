@@ -1,5 +1,5 @@
 -- Setup language servers.
-local lspconfig = require('lspconfig')
+local lspconfig = vim.lsp.config
 lspconfig.pyright.setup {}
 lspconfig.ts_ls.setup {}
 
